@@ -1,0 +1,4 @@
+if g:localvimrc_sourced_once_for_file
+    finish
+endif
+au BufNewFile,BufReadPre,BufEnter *.[chly] setlocal noexpandtab autoindent cindent tabstop=4 shiftwidth=4 cinoptions="(0,t0"
